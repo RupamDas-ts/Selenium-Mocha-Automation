@@ -1,0 +1,27 @@
+{
+  "name": "Automation-V2",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "mocha",
+    "test-specific": "mocha src/test/test1.spec.js",
+    "run-helper": "node src/AutomationHelpers/Helper.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.1",
+    "vite": "^5.1.6",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0",
+    "allure-commandline": "^2.30.0",
+    "allure-mocha": "^3.0.0-beta.11",
+    "allure-js-commons": "^3.0.0-beta.11"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.23.0",
+    "winston": "3.14.2"
+  }
+}

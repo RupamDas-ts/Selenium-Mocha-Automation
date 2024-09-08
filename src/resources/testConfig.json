@@ -1,0 +1,12 @@
+{
+  "LT:Options": {
+    "browserName": "Chrome",
+    "browserVersion": "127",
+    "username": "rupamd",
+    "accessKey": "g8bSPewKA2UPOBkcfGMcv1Vmc8N9CM11gIDUUyL9q9a8OpxUwc",
+    "platformName": "Windows 10",
+    "project": "Mocha-Trial",
+    "w3c": true,
+    "plugin": "node_js-mocha"
+  }
+}
